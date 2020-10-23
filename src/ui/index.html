@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>CRUD_electron</title>
+</head>
+<body>
+    <div id="body">
+        <div id="body-informations">
+            <form id="productForm">
+                <div id="fields">
+                <div id="field-title">
+                    <input type="text" id="title" placeholder="Titulo da anotação">
+                </div>
+                <div id="field-description">
+                    <textarea id="description" rows="15" placeholder="Descreva sua anotação"></textarea>
+                </div>
+                <div id="field-button">
+                    <button id="button">Anotar</button>
+                </div>
+                </div>
+            </form>
+        </div>
+        <div id="body-content">
+            <div id="anotations"></div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+</html>

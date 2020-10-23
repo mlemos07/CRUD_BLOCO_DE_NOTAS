@@ -1,0 +1,16 @@
+{
+  "name": "crud_electron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^8.2.1",
+    "promise-mysql": "^4.1.3"
+  }
+}

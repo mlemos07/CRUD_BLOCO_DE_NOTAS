@@ -1,0 +1,11 @@
+
+CREATE DATABASE anotation_electron;
+
+USE anotation_electron;
+
+CREATE TABLE anotation (
+	id INT NOT NULL AUTO_INCREMENT,
+	title TEXT NULL,
+	DESCRIPTION TEXT NULL,
+	PRIMARY KEY(id)
+)
